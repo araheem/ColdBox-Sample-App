@@ -43,25 +43,25 @@ Optional Methods
 		// coldbox directives
 		coldbox = {
 			//Application Setup
-			appName 				= "LearningColdBox",
+			appName 				= "philosophy",
 			eventName 				= "event",
 			
 			//Development Settings
-			debugMode				= true,
-			debugPassword			= "",
-			reinitPassword			= "",
+			debugMode               = true,
+			debugPassword           = "",
+			reinitPassword          = "",
 			handlersIndexAutoReload = true,
-			configAutoReload		= false,
+			configAutoReload        = false,
 			
 			//Implicit Events
-			defaultEvent			= "philosophy.index",
-			requestStartHandler		= "Main.onRequestStart",
-			requestEndHandler		= "",
+			defaultEvent            = "",
+			requestStartHandler     = "Main.onRequestStart",
+			requestEndHandler       = "",
 			applicationStartHandler = "Main.onAppInit",
-			applicationEndHandler	= "",
-			sessionStartHandler 	= "",
-			sessionEndHandler		= "",
-			missingTemplateHandler	= "",
+			applicationEndHandler   = "",
+			sessionStartHandler     = "",
+			sessionEndHandler       = "",
+			missingTemplateHandler  = "",
 			
 			//Extension Points
 			UDFLibraryFile 				= "includes/helpers/ApplicationHelper.cfm",
@@ -74,9 +74,9 @@ Optional Methods
 			requestContextDecorator 	= "",
 			
 			//Error/Exception Handling
-			exceptionHandler		= "",
-			onInvalidEvent			= "",
-			customErrorTemplate		= "",
+			exceptionHandler           = "",
+			onInvalidEvent             = "",
+			customErrorTemplate        = "",
 				
 			//Application Aspects
 			handlerCaching 			= false,
